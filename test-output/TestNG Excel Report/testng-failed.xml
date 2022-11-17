@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Excel Report]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sample Test Case1(failed)">
+    <classes>
+      <class name="com.mohs10.Report.TestNGExcelReport">
+        <methods>
+          <include name="testMethodSkip"/>
+          <include name="testMethodFail"/>
+        </methods>
+      </class> <!-- com.mohs10.Report.TestNGExcelReport -->
+    </classes>
+  </test> <!-- Sample Test Case1(failed) -->
+  <test thread-count="5" name="Sample Test Case2(failed)">
+    <classes>
+      <class name="com.mohs10.Report.TestNGExcelReport1">
+        <methods>
+          <include name="testMethodFail"/>
+          <include name="testMethodSkip"/>
+        </methods>
+      </class> <!-- com.mohs10.Report.TestNGExcelReport1 -->
+    </classes>
+  </test> <!-- Sample Test Case2(failed) -->
+</suite> <!-- Failed suite [TestNG Excel Report] -->

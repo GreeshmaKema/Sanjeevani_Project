@@ -41,7 +41,7 @@ import com.itextpdf.text.log.SysoCounter;
 			      Table table = new Table(pointColumnWidths);
 			    
 			      //file path of screenshot
-			      File file=new File("C:/Users/Dell/Desktop/Deepika/Projects/Mohs10 Framework/TestcaseScreenshots/");
+			      File file=new File("C:/Users/Tharun/eclipse-workspace/E_wrkspc2/Sai_Sanjivani_Project/TestcaseScreenshots/");
 		          
 			      //storing the list in string array
 		           String[] ls=file.list();
@@ -74,7 +74,7 @@ import com.itextpdf.text.log.SysoCounter;
 		             
 		       	  
 		    	    Cell cell2 = new Cell();
-		    	      cell2.add("Mohs10");
+		    	      cell2.add("Sanjeevani_Healthcare_Project");
 		    	     table.addCell(cell2);
 		    	      
 		    	    Cell cell3 = new Cell();
@@ -82,7 +82,7 @@ import com.itextpdf.text.log.SysoCounter;
 		   	      table.addCell(cell3);
 		   	      
 		   	      Cell cell4 = new Cell();
-			      cell4.add("10/11/2022");
+			      cell4.add("17/11/2022");
 			      table.addCell(cell4);
 		    	      
 			      Cell cell5 = new Cell();
@@ -90,7 +90,7 @@ import com.itextpdf.text.log.SysoCounter;
 			      table.addCell(cell5);
 			      
 			      Cell cell6 = new Cell();
-			      cell6.add("Abhishek");
+			      cell6.add("Greeshma");
 			      table.addCell(cell6);
 			   	  
 			     Cell cell7 = new Cell();       
@@ -141,7 +141,7 @@ import com.itextpdf.text.log.SysoCounter;
 		           //loop for adding images to the PDf
 		           for(int i=0;i<ls.length;i++) {
 		        	   
-		            String imFile = "C:/Users/Dell/Desktop/Deepika/Projects/Mohs10 Framework/TestcaseScreenshots/"+ls[i];  
+		            String imFile = "C:/Users/Tharun/eclipse-workspace/E_wrkspc2/Sai_Sanjivani_Project/TestcaseScreenshots/"+ls[i];  
 		            
 		            //Testcase step name
 		            String stepname=ls[i];

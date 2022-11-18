@@ -22,7 +22,7 @@ import com.itextpdf.layout.property.TextAlignment;
 
 public class PDFReportTest {
   @Test
-  public void f() throws MalformedURLException, FileNotFoundException
+  public void pdf() throws MalformedURLException, FileNotFoundException
   {
 	  // Creating a PdfWriter       
       String dest = "Report/ClientReport.pdf";       
@@ -80,7 +80,7 @@ public class PDFReportTest {
 	      table.addCell(cell3);
 	      
 	      Cell cell4 = new Cell();
-      cell4.add("16/11/2022");
+      cell4.add("18/11/2022");
       table.addCell(cell4);
 	      
       Cell cell5 = new Cell();
